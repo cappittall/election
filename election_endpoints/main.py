@@ -68,7 +68,7 @@ def parse_timestamp(timestamp: Union[str, datetime]) -> str:
 
 @app.get("/")
 def read_root():
-    return {"Hello": "World"}
+    return {"Just": "Incase"}
 
 class VoterInfo(BaseModel):
     electionBoxNumber: int
