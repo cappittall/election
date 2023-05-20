@@ -9,12 +9,23 @@ The Election App is a secure and efficient voting system designed to prevent dou
 3. **Detailed Record**: For every vote cast, the app records the election box number, the list line number, and the geolocation data.
 4. **Transparency**: If a double vote is detected, the app provides the details of the previous vote, including the election box number, list line number, and geolocation data, as well as the contact details of the previous submitter.
 
+## Components
+
+### [election_endpoints](https://github.com/cappittall/election/tree/master/election_endpoints)
+
+This is a FastAPI server designed to process and validate voter information. It receives the voter's image and other details, checks for any past voting records, and sends the results back to the app.
+
+### [election_control](https://github.com/cappittall/election/tree/master/election_control)
+
+This is a Flutter app used for interfacing with the user. It is responsible for capturing voter's image, gathering required data (such as the election box number and list line number), and sending this information to the `election_endpoints` server for validation. The app also receives and displays the results from the server.
+
 ## How to Use
 
-1. The user who controls the vote box takes a picture of the voter.
-2. The app sends the picture, along with the election box number and the list line number, to the server.
-3. The server checks the data against previous votes and returns a response.
-4. If a double vote is detected, the app will return the details of the previous vote.
+1. Launch the `election_control` app on a device with a camera and internet access.
+2. The user who controls the vote box takes a picture of the voter using the app.
+3. The app sends the picture, along with the election box number and the list line number, to the `election_endpoints` server.
+4. The server checks the data against previous votes and returns a response to the `election_control` app.
+5. If a double vote is detected, the app will display the details of the previous vote.
 
 ## Requirements
 
@@ -23,3 +34,4 @@ The Election App is a secure and efficient voting system designed to prevent dou
 * Geolocation services must be enabled.
 
 Please consult the respective directories for further details on the implementation and setup of the project.
+
