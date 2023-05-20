@@ -51,5 +51,5 @@ The system does not currently support authentication or authorization. This mean
 
 The system does not currently support horizontal scaling. The Annoy index is stored in memory and is not shared between instances of the system.
 
-This README provides a basic overview of your project. You may need to adjust it based on your specific requirements and constraints. For example, you may need to provide more detailed setup instructions or describe additional endpoints.
+
 
