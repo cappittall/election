@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>784908461355-jlkupq3lg4e5stumnoeek4gdomf4pm67.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.784908461355-jlkupq3lg4e5stumnoeek4gdomf4pm67</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCh426w-Jxvi7c5SRINZFCcgJzlVWZfcHM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>784908461355</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.turkish_election_control</string>
+	<key>PROJECT_ID</key>
+	<string>electionapp-dd818</string>
+	<key>STORAGE_BUCKET</key>
+	<string>electionapp-dd818.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:784908461355:ios:e2b44aa9f6008eabf7d16e</string>
+</dict>
+</plist>

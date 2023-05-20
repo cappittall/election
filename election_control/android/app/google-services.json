@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "784908461355",
+    "project_id": "electionapp-dd818",
+    "storage_bucket": "electionapp-dd818.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:784908461355:android:bdd8e28d460d772ef7d16e",
+        "android_client_info": {
+          "package_name": "com.example.turkish_election_control"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "784908461355-hc3el931ljuv6bpi87atg1628q7vbtmv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.turkish_election_control",
+            "certificate_hash": "bf30ac077ac1f8ee796b01b9b586865e4cbb87c9"
+          }
+        },
+        {
+          "client_id": "784908461355-a26rd9b6a76ebqm410snh057h9ga360j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBt6-h3DPPGskhfkwq5Fxc9TLoQ_Korf6U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "784908461355-a26rd9b6a76ebqm410snh057h9ga360j.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "784908461355-jlkupq3lg4e5stumnoeek4gdomf4pm67.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.turkishElectionControl"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

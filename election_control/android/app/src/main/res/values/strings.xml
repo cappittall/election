@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Turkish Election Control</string>
+    <string name="facebook_app_id">781954470011787</string>
+    <string name="fb_login_protocol_scheme">fb781954470011787</string>
+    <string name="facebook_client_token">381ea002b1bfe6441c241d70014d7652</string>
+</resources>
