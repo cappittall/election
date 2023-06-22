@@ -1,5 +1,7 @@
 # Election App
 
+![Alt text](<WhatsApp Image 2023-05-17 at 16.43.34.jpeg>)
+
 The Election App is a secure and efficient voting system designed to prevent double voting. It utilizes cutting-edge facial recognition technology and geolocation data to ensure the integrity of the election process.
 
 ## Features
